@@ -1,0 +1,78 @@
+*{
+    margin:0;
+}
+.homelinks{
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: linear-gradient(to bottom, #000000, #cccccc);
+    height: 50px;
+    width: 100%;
+    border: 20px black;
+    position: absolute;
+    top:0;
+}
+.homelinks a{
+    float: right;
+    padding: 10px;
+    padding-top:10px;
+    padding-bottom:0px;
+    margin: 10px;
+    margin-right: 10px;
+    color: #000000;
+    background-color: #b3b3b3;
+    border: solid 5px rgb(0, 0, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    position: absolute;
+    bottom: 0vh;
+    left: 0vh;
+    background: linear-gradient(to bottom, #000000, #cccccc);
+    width: 100%;
+}
+.icon{
+    float: left;
+    display: inline flex;
+    background: url(images/sprite3.png) no-repeat;
+    width: 66px;
+    height:66px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#instagram{
+    background-position: -290px -221px;
+}
+#youtube{
+    background-position: -439px -221px;
+}
+#facebook{
+    background-position: -439px -146px;
+}
+#pinterest{
+    background-position: -141px -221px;
+}
+.banner{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px){
+    .dropbtn{
+        background-color: #b3b3b3;
+        color: #000000;
+        padding:1vw;
+        font-size: 16px;
+        border:none;
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        display:none;
+    }
+}
